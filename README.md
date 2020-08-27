@@ -4,13 +4,12 @@
 
 This project uses python to automate a notification system. The notification system uses CloudWatch to monitor traffic to an EC2 compute instance and invokes a Lambda function to notify an autoscaling group to add more compute resources. Notifications are then sent to a Slack Application. The goal of this project is to automate a notifcation system using AWS and python.
 
-**Prerequisites**
+**Requirements**
 - pipenv
-- Ipython
+- Python 3.x
 - boto3
 - AWS Account with 1 VPC created
 - install httpd web server
-- 
 
 **Resources Used**
 
